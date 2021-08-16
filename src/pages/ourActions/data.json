@@ -1,0 +1,60 @@
+{
+    "items": [
+        {
+            "ID": 1,
+            "type": "dam",
+            "NAME": "DAM 2",
+            "coordinates": [11.0168,76.9558],
+            "city": "Coimbatur",
+            "state": "Tamil Nadu"
+        },
+        {
+            "ID": 2,
+            "type": "dam",
+            "NAME": "DAM 2",
+            "coordinates": [22.4707, 70.0577],
+            "city": "Jamnagar",
+            "state": "Gujarat"
+        },
+        {
+            "ID": 3,
+            "type": "factory",
+            "NAME": "FACTORY 1",
+            "coordinates": [22.5645, 72.9289],
+            "city": "Anand",
+            "state": "Gujarat"
+        },
+        {
+            "ID": 4,
+            "type": "dam",
+            "NAME": "DAM 3",
+            "coordinates": [19.0760, 72.8777],
+            "city": "Mumbai",
+            "state": "Maharashtra"
+        },
+        {
+            "ID": 5,
+            "type": "factory",
+            "NAME": "FACTORY 2",
+            "coordinates": [21.1458, 79.0882],
+            "city": "Nagpur",
+            "state": "Maharashtra"
+        },
+        {
+            "ID": 6,
+            "type": "dam",
+            "NAME": "DAM1",
+            "coordinates": [27.5680, 80.6790],
+            "city": "Sitapur",
+            "state":"Uttar Pradesh"
+        },
+        {
+            "ID": 7,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [26.9124, 75.7873],
+            "city": "Jaipur",
+            "state":"Rajasthan"
+        }
+    ]
+}

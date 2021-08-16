@@ -1,0 +1,92 @@
+{
+    "items": [
+        {
+            "ID": 2,
+            "type": "dam",
+            "NAME": "DAM 2",
+            "coordinates": [
+                22.4707,
+                70.0577
+            ],
+            "city": "Jamnagar",
+            "state": "Gujarat"
+        },
+        {
+            "ID": 4,
+            "type": "dam",
+            "NAME": "DAM 3",
+            "coordinates": [
+                18.5204,
+                73.8567
+            ],
+            "city": "Pune",
+            "state": "Maharashtra"
+        },
+        {
+            "ID": 5,
+            "type": "factory",
+            "NAME": "FACTORY 2",
+            "coordinates": [
+                12.9716,
+                77.5946
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka"
+        },
+        {
+            "ID": 6,
+            "type": "dam",
+            "NAME": "DAM1",
+            "coordinates": [
+                27.5680,
+                80.6790
+            ],
+            "city": "Sitapur",
+            "state": "Uttar Pradesh"
+        },
+        {
+            "ID": 7,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                26.9124,
+                75.7873
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        {
+            "ID": 8,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                33.2778,
+                75.3412
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        {
+            "ID": 9,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                19.7515,
+                75.7139
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        {
+            "ID": 10,
+            "type": "factory",
+            "NAME": "FACTORY 3",
+            "coordinates": [
+                22.9734,
+                78.6569
+            ],
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        }
+    ]
+}

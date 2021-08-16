@@ -1,0 +1,118 @@
+//
+// Bootstrap-custom.scss
+//
+@import "variables";
+
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  font-family: $font-family-base;
+  overflow-x: hidden !important;
+  color: $text-color;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  word-break: break-word;
+
+  // Tablet and laptop
+  @media (min-width: 769px) {
+    background-color: #F3F3F3;
+  }
+  // Mobile
+  @media (max-width: 768px) {
+    background-color: #fff;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-base;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+@each $name,
+$value in $colors {
+  .bg-#{$name} {
+    background-color: #{$value} !important;
+  }
+  .text-#{$name} {
+    color: #{$value} !important;
+  }
+  a {
+    &.text-#{$name} {
+      &:hover,
+      &:focus {
+        color: darken($value, 5%) !important;
+      }
+    }
+  }
+}
+
+
+//Buttons
+@each $name,
+$value in $colors {
+  .btn-#{$name} {
+    background-color: #{$value};
+    border: 1px solid #{$value};
+    color: $white;
+    box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+
+    &:hover, &:focus, &:active, &.active, &.focus {
+      background-color: darken($value, 10%);
+      border-color: darken($value, 10%);
+      color: $white;
+    }
+  }
+
+  .btn-outline-#{$name} {
+    border: 1px solid #{$value};
+    color: #{$value};
+    background-color: transparent;
+
+    &:hover, &:focus, &:active, &.active, &.focus, &:not(:disabled):not(.disabled):active {
+      border-color: #{$value};
+      background-color: transparent;
+      box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+      color: #{$value};
+    }
+  }
+}
+
+
+//Badges
+@each $name,
+$value in $colors {
+  .badge-#{$name} {
+    background-color: #{$value} !important;
+    color: $white !important;
+  }
+
+  .badge-outline-#{$name} {
+    background-color: transparent !important;
+    color: #{$value} !important;
+    border: 1px solid #{$value} !important;
+  }
+}
+.badge {
+  padding: 5px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  &.badge-light {
+    color: $text-color !important;
+    background-color: $light !important;
+  }
+
+  &.badge-outline-light {
+    color: $text-color !important;
+    border: 1px solid darken($light, 20%) !important;
+    background-color: transparent !important;
+  }
+  &.badge-pill {
+    border-radius: $border-radius;
+  }
+  &:focus, &.focus {
+    box-shadow: none !important;
+  }
+}

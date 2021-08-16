@@ -1,0 +1,44 @@
+@import "variables";
+
+.nav-link{
+    text-decoration: none;
+    color: $primary;
+}
+
+.map-comp{
+    display: flex;
+    justify-content: center;
+}
+
+.mapboxgl-map {
+    border: 1px solid $black;
+}
+
+.reset-zoom{
+    height:40px
+}
+
+.marker-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    img {
+        width: 30px;
+    }
+}
+
+.close{
+    background: none;
+    border: none;
+}
+
+
+.share-icon {
+    margin: 0px 5px;
+    font-size: 30px;
+}
+
+.btn-success:hover{
+    // background-color: inherit;
+}
