@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/samunnati/static/css/main.6e282b1b.chunk.css",
+    "main.js": "/samunnati/static/js/main.52a1f38a.chunk.js",
+    "main.js.map": "/samunnati/static/js/main.52a1f38a.chunk.js.map",
+    "runtime-main.js": "/samunnati/static/js/runtime-main.28cbd555.js",
+    "runtime-main.js.map": "/samunnati/static/js/runtime-main.28cbd555.js.map",
+    "static/css/2.c0a07d5a.chunk.css": "/samunnati/static/css/2.c0a07d5a.chunk.css",
+    "static/js/2.7fc7ca21.chunk.js": "/samunnati/static/js/2.7fc7ca21.chunk.js",
+    "static/js/2.7fc7ca21.chunk.js.map": "/samunnati/static/js/2.7fc7ca21.chunk.js.map",
+    "static/js/3.f70c3d05.chunk.js": "/samunnati/static/js/3.f70c3d05.chunk.js",
+    "static/js/3.f70c3d05.chunk.js.map": "/samunnati/static/js/3.f70c3d05.chunk.js.map",
+    "index.html": "/samunnati/index.html",
+    "static/css/2.c0a07d5a.chunk.css.map": "/samunnati/static/css/2.c0a07d5a.chunk.css.map",
+    "static/css/main.6e282b1b.chunk.css.map": "/samunnati/static/css/main.6e282b1b.chunk.css.map",
+    "static/js/2.7fc7ca21.chunk.js.LICENSE.txt": "/samunnati/static/js/2.7fc7ca21.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.e902fb99.worker.js": "/samunnati/static/js/mapbox-gl-csp-worker.e902fb99.worker.js",
+    "static/js/mapbox-gl-csp-worker.e902fb99.worker.js.map": "/samunnati/static/js/mapbox-gl-csp-worker.e902fb99.worker.js.map",
+    "static/media/Picture1.85285e89.png": "/samunnati/static/media/Picture1.85285e89.png",
+    "static/media/Sample.0d425f73.pdf": "/samunnati/static/media/Sample.0d425f73.pdf",
+    "static/media/brandnew.5c4cc917.jpeg": "/samunnati/static/media/brandnew.5c4cc917.jpeg",
+    "static/media/dam.5e77a0b0.svg": "/samunnati/static/media/dam.5e77a0b0.svg",
+    "static/media/factory.be3ac821.svg": "/samunnati/static/media/factory.be3ac821.svg",
+    "static/media/farm.e04ccf78.png": "/samunnati/static/media/farm.e04ccf78.png",
+    "static/media/journey.87586cc5.jpeg": "/samunnati/static/media/journey.87586cc5.jpeg",
+    "static/media/recycle1.1ac1e6e3.png": "/samunnati/static/media/recycle1.1ac1e6e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28cbd555.js",
+    "static/css/2.c0a07d5a.chunk.css",
+    "static/js/2.7fc7ca21.chunk.js",
+    "static/css/main.6e282b1b.chunk.css",
+    "static/js/main.52a1f38a.chunk.js"
+  ]
+}
